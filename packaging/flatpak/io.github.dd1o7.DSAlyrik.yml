@@ -1,28 +1,40 @@
 # Build from the repository root:
-#   flatpak-builder --user --install build-flatpak packaging/flatpak/io.github.dd1o7.DSAlyrik.yml
+#   flatpak run org.flatpak.Builder --user --install --force-clean build-flatpak packaging/flatpak/io.github.dd1o7.DSAlyrik.yml
 app-id: io.github.dd1o7.DSAlyrik
 runtime: org.kde.Platform
 runtime-version: '6.11'
 sdk: org.kde.Sdk
 command: dsalyrik
 finish-args:
-  # Overlay window: XWayland gives keep-above and click-through on KDE (see README).
-  - --socket=x11
+  # The overlay is a native Wayland layer-shell surface (above windows, click-through);
+  # X11 is kept for X11 sessions and the --xwayland fallback.
   - --socket=wayland
+  - --socket=fallback-x11
   - --share=ipc
   - --device=dri
-  # Lyrics from LRCLIB and remote album art only.
+  # Lyrics (Spicy Lyrics, LRCLIB) and remote album art.
   - --share=network
-  # Read now-playing data and show the tray icon. Portals (idle inhibit) need no extra permission.
+  # Now-playing data from media players, and the tray icon.
   - --talk-name=org.mpris.MediaPlayer2.*
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=org.kde.StatusNotifierItem-*
+  - --own-name=org.kde.StatusNotifierItem-2-1 # Qt names its tray item after the PID, which is 2 inside the sandbox
   # Hide over fullscreen apps: load a small KWin script that calls back (KDE only).
   - --talk-name=org.kde.KWin
   # Read-only Music folder: sidecar .lrc files next to local tracks (real word timing).
-  # Album art given as a local path elsewhere falls back to manual colors.
   - --filesystem=xdg-music:ro
+  # Keep-awake uses the Inhibit portal, which needs no extra permission.
 modules:
+  # KDE's layer-shell integration for Qt (not part of the KDE runtime).
+  - name: layer-shell-qt
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: archive
+        url: https://download.kde.org/stable/plasma/6.7.5/layer-shell-qt-6.7.5.tar.xz
+        sha256: ccdcfec7081ca956f7a52c9113a4df3a226575bfbe98b56a2a9a4d7d7e19e8f0
+
   - name: dsalyrik
     buildsystem: cmake-ninja
     config-opts:
@@ -31,3 +43,9 @@ modules:
     sources:
       - type: dir
         path: ../..
+        skip:
+          - build
+          - build-flatpak
+          - .flatpak-builder
+          - .git
+          - .flatpak-repo

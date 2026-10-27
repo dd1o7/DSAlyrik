@@ -1,3 +1,7 @@
 build/
 .superpowers/
 *.user
+.flatpak-builder/
+build-flatpak/
+.flatpak-repo/
+*.flatpak

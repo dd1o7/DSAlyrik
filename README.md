@@ -28,7 +28,26 @@ ctest --test-dir build          # unit and integration tests (needs dbus-daemon)
 ./build/dsalyrik
 ```
 
-A Flatpak manifest is in `packaging/flatpak/`.
+### Flatpak
+
+Download `dsalyrik-0.1.0.flatpak` from the [Releases](https://github.com/dd1o7/DSAlyrik/releases) page, then:
+
+```bash
+flatpak install --user dsalyrik-0.1.0.flatpak
+flatpak run io.github.dd1o7.DSAlyrik
+```
+
+It uses the KDE 6.11 runtime from Flathub, which `flatpak install` fetches if needed. To build it yourself:
+
+```bash
+flatpak run org.flatpak.Builder --user --install --force-clean build-flatpak packaging/flatpak/io.github.dd1o7.DSAlyrik.yml
+```
+
+### Word-by-word lyrics for Spotify
+
+Create a free application at [developers.spicylyrics.org](https://developers.spicylyrics.org/docs) and paste its secret key
+into **Settings → Lyrics sources** (or set `SPICY_LYRICS_SECRET_KEY`). Without a key, lyrics come from local `.lrc`
+files and LRCLIB, with estimated word timing.
 
 ## Using it
 
