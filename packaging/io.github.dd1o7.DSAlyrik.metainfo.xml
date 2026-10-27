@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.dd1o7.DSAlyrik</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>DSAlyrik</name>
+  <summary>Word-by-word lyrics for the music playing on your desktop</summary>
+  <description>
+    <p>
+      DSAlyrik follows any MPRIS media player and shows its lyrics on a transparent,
+      click-through overlay, highlighting each word as it is sung.
+    </p>
+    <ul>
+      <li>Four styles: Drift, Lens, Lens + Glyphs and Glyphs</li>
+      <li>Colors can follow the album art</li>
+      <li>Can keep the display awake while music plays</li>
+      <li>Lyrics come from LRCLIB and are never written to disk</li>
+      <li>Idle when nothing is playing</li>
+    </ul>
+  </description>
+  <developer id="io.github.dd1o7">
+    <name>DSAlyrik contributors</name>
+  </developer>
+  <url type="homepage">https://github.com/dd1o7/DSAlyrik</url>
+  <url type="bugtracker">https://github.com/dd1o7/DSAlyrik/issues</url>
+  <launchable type="desktop-id">io.github.dd1o7.DSAlyrik.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+  <supports>
+    <control>pointing</control>
+  </supports>
+  <releases>
+    <release version="0.1.0" date="2026-10-26">
+      <description><p>First development release.</p></description>
+    </release>
+  </releases>
+</component>

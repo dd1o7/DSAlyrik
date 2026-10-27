@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=DSAlyrik
+GenericName=Synchronized lyrics
+Comment=Word-by-word lyrics for the music playing on your desktop
+Exec=dsalyrik
+Icon=io.github.dd1o7.DSAlyrik
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+Keywords=lyrics;karaoke;music;spotify;mpris;
+StartupNotify=false
+SingleMainWindow=true

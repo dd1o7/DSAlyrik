@@ -1,0 +1,37 @@
+# DSAlyrik phrase → symbol table (original; MIT). "<symbol>\t<phrase>|<phrase>..."
+# Two- and three-word phrases; the symbol goes on the phrase's last word.
+💔	broken heart|heart break|heartbreak|fall apart|falling apart|tear me apart
+🌠	shooting star|falling star|wish upon
+🔥	on fire|set fire|burn it down|light it up
+😍	in love|fall in love|falling in love|love you
+❤	make love|my love|true love
+🌙	last night|good night|all night|every night|the night
+☀	good morning|sun comes up|the sun
+🌧	rain down|pouring rain
+🚀	outer space|blast off
+🎸	rock and roll|rock n roll|rock n' roll
+💃	slow dance|last dance|dance floor|dance with me
+🕊	let go|break free|let me go|set me free|free fall
+🏃	run away|running away|get away
+⏰	wake up|waking up|wake me up
+💤	sleep tight|go to sleep
+💭	sweet dreams|bad dream|day dream|daydream
+🔊	turn it up|turn up|crank it up|so loud
+📱	phone call|call me|text me
+❌	no more|never again|not anymore
+♾	forever and ever|for always|till the end
+👋	say goodbye|so long|see you later
+🙏	thank you|thank god|pray for
+😱	oh my god|oh my|oh no
+🏙	city lights|big city|midnight city
+🌊	ocean blue|deep blue|under water|underwater
+🎉	party all|all night long
+🥂	cheers to|raise a glass|raise your glass
+💸	make it rain|money talks
+🗽	new york
+🏠	coming home|going home|take me home|home sweet home
+✋	hold on|hold me|hold my hand|hold tight
+🤗	hold me close|hug me
+👀	look at me|look at you|eyes on
+🫶	take care|i care
+⏳	wait for|waiting for|one more time|time after time

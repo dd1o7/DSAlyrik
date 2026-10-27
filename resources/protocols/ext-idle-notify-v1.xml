@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Interface definition of the staging Wayland protocol "ext-idle-notify-v1"
+     (wayland-protocols, MIT licence), restated with only what DSAlyrik uses,
+     for wayland-scanner. Wire-compatible with the upstream protocol. -->
+<protocol name="ext_idle_notify_v1">
+  <interface name="ext_idle_notifier_v1" version="2">
+    <request name="destroy" type="destructor"/>
+    <request name="get_idle_notification">
+      <arg name="id" type="new_id" interface="ext_idle_notification_v1"/>
+      <arg name="timeout" type="uint"/>
+      <arg name="seat" type="object" interface="wl_seat"/>
+    </request>
+    <request name="get_input_idle_notification" since="2">
+      <arg name="id" type="new_id" interface="ext_idle_notification_v1"/>
+      <arg name="timeout" type="uint"/>
+      <arg name="seat" type="object" interface="wl_seat"/>
+    </request>
+  </interface>
+  <interface name="ext_idle_notification_v1" version="2">
+    <request name="destroy" type="destructor"/>
+    <event name="idled"/>
+    <event name="resumed"/>
+  </interface>
+</protocol>

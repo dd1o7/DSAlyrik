@@ -1,0 +1,289 @@
+# DSAlyrik word → symbol table (original; MIT).
+# One symbol per line, then the base words it stands for, separated by spaces.
+# Inflections (stars, running, cried, loved, brighter, heart's) are derived by
+# WordGlyphResolver, so list base forms plus irregular forms only.
+# Symbols are drawn monochrome with text presentation, tinted like icons.
+
+# --- Love & feeling
+❤	love lover heart darling sweetheart beloved adore honey babe
+💔	heartbreak heartbroken broken break breakup shatter shattered
+💓	heartbeat beat beating pulse
+💋	kiss lips
+💌	valentine
+😍	beautiful pretty gorgeous lovely cute
+🥰	crush adorable
+🤗	hug embrace cuddle
+🫶	care caring
+😊	smile happy happiness joy glad
+😂	laugh laughter funny
+😢	cry tear sad sadness weep sorrow
+🥺	miss sorry
+😡	angry anger mad rage furious hate
+😱	scared afraid fear terror scream
+😴	tired exhausted
+💤	sleep asleep slept nap
+🫀	feel felt soul
+🤲	want need desire crave
+🩹	pain hurt heal wound scar
+🥀	weak wither fade
+💭	dream dreamer think thought imagine fantasy
+😎	cool
+🤔	why maybe doubt wonder question
+😇	angel halo innocent heaven heavenly
+😈	devil demon evil sin sinner wicked hell
+🤯	insane crazy
+🥵	sweat sweating
+😌	calm relax relief
+🫠	melt melting
+
+# --- People & body
+🌱	life live alive grow hope seed
+🔍	find found search seek
+⚓	anchor stay remain
+🏷	name label
+🧍	body skin stand
+👤	you me myself yourself someone somebody alone lonely
+👥	we us everybody everyone people crowd
+👶	baby child children kid young
+👧	girl
+👦	boy
+👩	woman women lady mother mom mama
+👨	man men father dad daddy
+👴	old grandpa grandfather
+👵	grandma grandmother
+👑	king queen crown royal throne prince princess
+👁	eye see saw seen look watch stare sight vision
+👂	hear heard listen ear
+👄	mouth say said speak talk tell told word
+✋	hand hold held touch
+🤝	together friend trust promise deal
+🙏	pray prayer please faith believe amen
+🙌	hallelujah praise
+👋	hello hi goodbye bye farewell
+💪	strong strength fight fought muscle tough
+👊	punch hit
+👣	step follow footprint
+🧠	mind brain memory remember forget forgot forgotten know knew known
+🫁	breathe breath
+🩸	blood bleed bled
+💀	dead death die kill killer skull
+🦴	bone bones
+👅	taste tongue
+👃	smell nose
+🤫	quiet silence silent hush whisper
+📢	shout yell loud
+🗣	voice speech
+
+# --- Sky & weather
+☀	sun sunny sunshine summer daylight sunlight
+🌅	sunrise sunset dawn dusk horizon
+🌙	moon moonlight night tonight midnight
+⭐	star starlight
+🌠	wish shooting
+✨	shine shimmer sparkle glitter glow magic magical bright dazzle
+☁	cloud sky
+🌧	rain rainy drizzle
+⛈	storm thunder lightning
+❄	snow cold ice frozen freeze winter chill
+🌬	wind blow breeze air
+🌫	fog haze mist
+🌪	tornado chaos wild
+🌈	rainbow color colour
+🌌	universe galaxy cosmos
+🪐	planet saturn orbit
+☄	comet meteor
+🌍	world earth globe everywhere
+
+# --- Nature & places
+🌊	ocean sea wave tide river shore surf
+💧	water drop wet drown
+🔥	fire burn burnt flame blaze hot heat ignite lit
+🌋	volcano erupt lava
+🌳	tree forest wood woods
+🍃	leaf leaves
+🍂	autumn
+🌸	flower bloom blossom spring petal
+🌹	rose roses
+🌻	sunflower
+🌾	field grass
+🌵	desert cactus
+⛰	mountain hill climb
+🏝	island paradise beach
+🏔	high peak summit
+🏠	home house room
+🏙	city town street downtown
+🌉	bridge
+🛣	highway road
+🏨	hotel
+🏥	hospital
+🏫	school
+🏢	office work job
+⛪	church chapel god lord holy
+🗺	map journey travel adventure
+🧭	lost direction north south east west compass way
+📍	place
+🚪	door open opened
+🪟	window
+🧱	wall
+🛏	bed pillow
+⛓	chain prison jail cage
+
+# --- Time
+⏳	wait time hourglass
+⏰	clock morning alarm wake awake
+📅	day today tomorrow yesterday weekend sunday monday friday saturday week
+🕰	past ago yesteryear
+♾	forever infinite always eternity endless eternal
+🔄	again back return repeat
+🏁	finish end ending race
+🚦	stop
+🔜	soon
+
+# --- Music & party
+🎵	music song melody tune
+🎤	sing sang sung singer microphone
+🎸	guitar rock band
+🥁	drum rhythm
+🎹	piano
+🎧	headphone radio playlist
+💃	dance dancer
+🕺	party groove disco club
+🎉	celebrate celebration
+🍾	champagne cheers toast
+🍷	wine drink drunk bottle
+🍸	cocktail bar
+🍺	beer
+🚬	smoke cigarette
+💊	pill drug medicine
+🎆	firework fireworks
+🎈	balloon float
+🎁	gift present
+🎂	birthday cake
+
+# --- Travel & motion
+🚗	car drive drove ride rode
+🚕	taxi
+🚆	train station
+✈	plane flight airport
+🚀	rocket launch
+⛵	boat sail ship
+🚲	bike bicycle
+🏃	run ran runaway escape chase
+🚶	walk away go went gone leave left
+🕊	peace dove free freedom fly flew flown
+🦋	butterfly
+💫	dizzy spin fall fell fallen
+🎢	rollercoaster
+⬆	up rise risen lift
+⬇	down sink sank low
+🧳	suitcase pack
+
+# --- Objects
+📱	phone call text message
+✉	letter mail envelope
+📷	photo picture camera
+🎬	movie film scene
+📺	tv television screen
+💻	computer laptop
+🔋	battery charge
+💡	light idea
+🕯	candle
+🔑	key unlock secret
+🔒	lock locked closed
+🪞	mirror reflection
+🧸	teddy toy
+💍	ring marry married wedding bride
+💎	diamond jewel
+🥇	gold golden
+💰	money cash rich dollar pay paid
+💸	spend spent
+🎲	chance gamble dice
+🍀	luck lucky clover
+🃏	game play played joker card
+🧩	piece puzzle
+🎭	pretend fake mask lie liar
+🎨	art paint painting
+✏	write wrote written pen
+📖	book story page read chapter
+🔮	future fortune destiny fate
+⚖	justice truth honest
+🪜	ladder
+🧲	magnet attract
+🎯	target aim goal
+🏆	win winner champion trophy victory
+⚽	football soccer
+🏀	basketball
+👟	shoe sneaker
+👗	dress
+👔	suit tie
+🕶	sunglasses shades
+💄	lipstick makeup
+👠	heels
+🧥	coat jacket
+
+# --- Danger & conflict
+🔫	gun shoot shot bullet
+🔪	knife blade cut
+⚔	war battle sword
+🛡	protect shield safe
+💣	bomb
+💥	boom crash bang explode explosion
+⚡	electric energy power shock
+👻	ghost haunt haunted
+⚰	grave funeral coffin
+🏹	arrow
+🧛	vampire
+🧟	zombie
+🧙	wizard witch spell
+🐉	dragon
+👽	alien
+🤖	robot machine
+🛸	ufo
+✝	cross jesus
+🕳	hole empty void
+
+# --- Animals
+🐦	bird wing
+🐍	snake
+🐺	wolf wolves
+🦁	lion brave courage
+🐯	tiger
+🐶	dog puppy
+🐱	cat kitty
+🐴	horse
+🐟	fish
+🐝	bee
+🦅	eagle
+🦈	shark
+🐳	whale
+🦄	unicorn
+🐻	bear
+🐒	monkey
+🐰	bunny rabbit
+
+# --- Food
+🍎	apple
+🍒	cherry
+🍓	strawberry
+🍑	peach
+🍋	lemon bitter sour
+🍫	chocolate sweet candy sugar
+🍕	pizza food eat hungry
+☕	coffee
+🍵	tea
+
+# --- Colours
+🔴	red
+🖤	black dark darkness shadow
+🤍	white pure
+💙	blue
+💚	green
+💛	yellow
+💜	purple violet
+🧡	orange
+💗	pink
+
+# --- Yes, no, numbers
+✅	yes okay ok right true
+❌	no never wrong false nothing nobody
+💯	hundred perfect
